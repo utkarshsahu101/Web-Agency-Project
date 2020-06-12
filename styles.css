@@ -386,7 +386,7 @@ nav ul li a:hover {
   font-size: 30px;
   text-transform: uppercase;
   color: #e0e2db;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 #filler-contact button {
@@ -408,12 +408,12 @@ nav ul li a:hover {
   background: #beb7a4;
   padding: 20px 0 80px 0;
 }
-.post-conatiner {
+.post-container {
   max-width: 90vw;
   margin: 0 auto;
 }
 .post-item {
-  background: #e0e2db;
+  background-color: #e0e2db;
   color: #191716;
   margin: 20px 0;
 }
@@ -462,12 +462,12 @@ nav ul li a:hover {
 }
 
 .text-container a:hover {
-  background: #191716;
+  background-color: #191716;
   border-color: #191716;
 }
 
 @media screen and (min-width: 576px) {
-  .post-conatiner {
+  .post-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 1em;
@@ -475,7 +475,7 @@ nav ul li a:hover {
   }
 }
 @media screen and (min-width: 992px) {
-  .post-conatiner {
+  .post-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 1em;
@@ -502,12 +502,12 @@ footer {
 .footer-icons {
   font-size: 30px;
 }
-.footer-icons .fa {
+.footer-icons .fab {
   margin-right: 10px;
   color: #e0e2db;
   transition: transform 2s;
 }
-.footer-icons .fa:hover {
+.footer-icons .fab:hover {
   color: #e6af2e;
   transform: translateY(-15px);
 }
